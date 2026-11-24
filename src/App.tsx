@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       {isLoggedIn ? (
-        <Dashboard onLogout= {() => {
+        <Dashboard onLogout={() => {
           setIsLoggedIn(false);
           setShowLogin(true);
         }} />

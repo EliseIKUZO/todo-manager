@@ -54,7 +54,7 @@ function Register({ onLoginClick }: RegisterProps) {
 
         <button
           type="submit"
-          className="w-full bg-pink-600 text-white py-3 rounded-lg hover:bg-green-700"
+          className="w-full bg-rose-700 text-white py-3 rounded-lg hover:bg-rose-800"
         >
           Register
         </button>
